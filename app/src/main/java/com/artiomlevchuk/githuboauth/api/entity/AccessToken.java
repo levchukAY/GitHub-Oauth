@@ -8,25 +8,28 @@ public class AccessToken {
     @SerializedName("access_token")
     @Expose
     private String accessToken;
-
+    @SerializedName("scope")
+    @Expose
+    private String scope;
     @SerializedName("token_type")
     @Expose
     private String tokenType;
-
     @SerializedName("error")
     @Expose
     private String error;
-
     @SerializedName("error_description")
     @Expose
     private String errorDescription;
-
     @SerializedName("error_uri")
     @Expose
     private String errorUri;
 
     public String getAccessToken() {
         return accessToken;
+    }
+
+    public String getScope() {
+        return scope;
     }
 
     public String getTokenType() {

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">GitHub OAuth</string>
+    <string name="github">GitHub</string>
+    <string name="account_already_exists">Аккаунт уже существует</string>
 </resources>

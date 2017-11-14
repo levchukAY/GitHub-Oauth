@@ -3,14 +3,14 @@ package com.artiomlevchuk.githuboauth.api.entity;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class AuthorizedUser {
+public class Repository {
 
-    @SerializedName("login")
+    @SerializedName("name")
     @Expose
-    private String login;
+    private String name;
 
-    public String getLogin() {
-        return login;
+    public String getName() {
+        return name;
     }
 
 }
